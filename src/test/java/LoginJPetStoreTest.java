@@ -43,7 +43,7 @@ public class LoginJPetStoreTest {
 			}		*/	
  
 			//browser = new ChromeDriver();    
-			browser.get("http://localhost:8082/jpetstore/");   
+			browser.get("http://localhost:8081/jpetstore/");   
 			
 			browser.findElement(By.linkText("Enter the Store")).click();
 			
